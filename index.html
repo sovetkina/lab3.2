@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Лабораторная работа 3</title>
+	</head>
+	<body>
+		<script>
+			var numbers=[];
+			for(var i=0; i < 5; i++){
+				numbers[i] = +prompt('Введите число');
+			}
+			var sum=0;
+			for (var i=4; i>=0; i--){
+				if (numbers[i] !=0) sum += numbers[i];
+					else break;		
+			}
+			alert(sum);
+		</script>
+	</body>
+</html>
